@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro de Produto</title>
+  </head>
+  <body>
+      <h1>Cadastre aqui</h1>
+
+      <fieldset>
+        <legend>Dados do Produto</legend>
+
+        <label for="marca"> Marca:</label><br>
+        <select id="marca">
+            <option selected disabled>--Selecione--</option>
+            <option>Dell</option>
+            <option>Acer</option>
+            <option>Hp</option>
+            <option>Hyperx</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="modelo"> Modelo:</label><br>
+            <select id="modelo">
+                <option selected disabled>--Selecione--</option>
+                <option>TKEY 1234</option>
+                <option>TKEY 3214</option>
+                <option>TKEY 6541</option>
+                <option>TKEY 2445</option>
+        </select>
+            <br><br>
+
+
+            <label for="descrição do produto">Descrição do produto</label><br>
+            <textarea id="descrição" placeholder="Descreva aqui"></textarea><br><br>
+
+            <label for="preço">Preço do produto</label><br>
+            <input type="number" id="preço" min="199" max="399"><br><br>
+
+            <label for="quantidade">Quantidade</label><br>
+            <input type="number" id="preço" min="1" max="20"><br><br>
+
+            <label for="garantia"> Garantia</label><br>
+            <select id="garantia">
+                <option selected disabled>--Selecione--</option>
+                <option>05 meses</option>
+                <option>01 ano</option>
+                <option>02 anos</option>
+                <option>Sem garantia</option>
+
+                <br><br>
+
+              <p>O produto está disponivel?</p>
+
+              <label for="sim">Sim</label>
+              <input name="disponibilidade" id=sim type="radio">
+
+              <label for="não"> Não</label>
+              <input name="disponibilidade" id="não" type="radio">
+
+              <br><br>
+
+              <label for="numero de serie"> Número de Serie do Produto: </label><br>
+              <input id="numero de serie" type="text"
+                placeholder="Digite aqui o número de serie"
+                  required
+
+      </fieldset>
+
+
+
+
+
+
+
+
+  </body>
+</html>

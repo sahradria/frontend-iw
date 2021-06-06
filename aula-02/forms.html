@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário Aula 02</title>
+  </head>
+  <body>
+
+<form>
+      <fieldset>
+
+        <legend>Dados Pessoais do Usuário</legend>
+
+          <label for="nome"> Nome: </label> <br>
+          <input id="nome" type="text"
+            placeholder="Digite aqui seu nome completo"
+              required
+      >
+
+      <br>
+
+          <label for="email"> Email:</label> <br>
+          <input type="email" id="email"
+            placeholder="Digite aqui seu email"
+      >
+
+      <br>
+
+          <label for="senha"> Senha:</label> <br>
+          <input type="password" id="senha" minlength="8"
+            placeholder="Digite aqui sua senha"
+              required
+      >
+
+      <br>
+
+          <label for="idade">Qual sua idade</label><br>
+          <input type="number" id="idade" min="18" max="59"
+
+      >
+
+      <br><br>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações Adicionais</legend>
+
+          <label for="data_nascimento">Data de Nascimento</label>
+          <input type="date" id="data_nascimento"
+
+        >
+
+        <br>
+
+          <label for="hora">Preferencia de horario da aula</label>
+          <input type="time" id="hora"
+
+        >
+
+        <br>
+
+          <label for="cor">Cor da Camiseta</label>
+          <input type="color" id="cor"
+
+        >
+
+        <br>
+
+          <label for="foto">Envie uma foto 3x4</label>
+          <input type="file"id="foto">
+
+        <br>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Dados de Endereço</legend>
+
+          <p>Qual unidade fica melhor pra você?</p>
+
+          <label for="messejana">Messejana</label>
+          <input name="bairro" id="messejana" type="radio"><br>
+
+          <label for="fatima">Fátima</label>
+          <input name="bairro" id="fatima"  type="radio"><br>
+
+          <label for="aldeota">Aldeota</label>
+          <input name="bairro" id="aldeota" type="radio"><br>
+
+          <br>
+
+          <p>Qual cursos vocês tem interesse?</p>
+
+          <label for="php">PHP 8</label>
+          <input type="checkbox" id="php"><br>
+
+          <label for="python">Python</label>
+          <input type="checkbox" id="python"><br>
+
+          <label for="java">Java</label>
+          <input type="checkbox" id="java"><br>
+
+          <br>
+
+          <label for="cidade">Cidade</label><br>
+          <select id="cidade">
+              <option selected disabled>--Selecione--</option>
+              <option>Fortaleza</option>
+              <option>Caucaia</option>
+              <option>Maracanau</option>
+              <option>Eusebio</option>
+              <option>Itaitinga</option>
+          </select>
+
+          <br>br
+
+          <label for="obs">Observações</label><br>
+          <textarea id="obs" placeholder="Digite aqui"></textarea>
+
+      </fieldset>
+
+
+
+
+
+      <br>
+
+      <button> Enviar</button>
+
+
+
+  </form>
+
+</body>
+</html>
